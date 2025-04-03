@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	valores := []int{1, 2, 3, 4, 5}
-	valores = append(valores, 6, 7, 8,)
-	fmt.Println("Valores:", valores)
-	fmt.Println(len(valores), cap(valores))
+	nomes := []string{"Bruno", "Yan", "Vinicius", "Eduardo", "Pedro"}
+	fmt.Println(nomes[:2])
+	fmt.Println(nomes[3:])
+	rangOne := nomes[2]
+	fmt.Println(rangOne)
 }
